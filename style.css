@@ -2,10 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 35px;
-}
-p{
-    margin-bottom: 50px;
+    font-size:1000;
+   
 }
 .orange-font{
     color: orangered;
@@ -35,6 +33,7 @@ padding-right: 5%;
 }
 .bottom-flex{
     display: flex;
+    padding-bottom: 100px;
 }
 .bottom-half-width{
     width: 45%;
@@ -52,4 +51,24 @@ padding-right: 5%;
 .background-image{
     background-image: url(images/shapes/7.png);
     background-repeat:no-repeat ;
+    padding-left: 5%;
+}
+.text-allign{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.item-container{
+    display: flex;
+    padding-left: 150px;
+}
+/*.one-third-width{
+    width: 90%;
+    height: 100%;
+}*/
+.one-third-width img{
+    width: 70%;
+}
+.recipie-resize{
+    height: 85%;
+    border-radius: 20px;
 }
