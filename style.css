@@ -24,7 +24,7 @@ padding-right: 5%;
 }
 .button{
     text-decoration: none;
-   background-image: linear-gradient(orange,tomato);
+   background-image: linear-gradient(rgb(37, 34, 27),tomato);
    border-radius: 8px;
     padding: 10px 20px;
     color: white;
@@ -59,16 +59,58 @@ padding-right: 5%;
 }
 .item-container{
     display: flex;
-    padding-left: 150px;
-}
-/*.one-third-width{
-    width: 90%;
-    height: 100%;
-}*/
-.one-third-width img{
+   /* padding-left: 150px;
+    padding-right: 150px;*/
+    padding-bottom: 200px;
     width: 70%;
+    padding-left: 200px;
+    
+}
+.one-third-width img{
+    width: 100%;
 }
 .recipie-resize{
-    height: 85%;
+    height: 40%;
     border-radius: 20px;
+    padding-top: 50px;
+}
+.one-third-width{
+    
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#box-one{
+    box-shadow: 5px 5px 5px 5px dimgray;
+    border-radius: 20px;
+    margin-right: 50px;
+  
+}
+#box-two{
+    box-shadow: 5px 5px 5px 5px dimgray;
+    border-radius: 20px;
+    margin-right: 50px;
+  
+   
+}
+#box-three{
+    box-shadow: 5px 5px 5px 5px dimgray;
+    border-radius: 20px; 
+}
+.last-container{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.width-fix{
+    padding-right: 5%;
+    border: 5px solid orange;
+}
+.make-gap{
+   margin-right: 20px;
+}
+.black-background{
+    background-color:black;
+    color: white;
+    margin-top: 100px;
 }
